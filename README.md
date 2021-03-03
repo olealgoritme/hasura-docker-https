@@ -11,5 +11,4 @@ vim Caddyfile [replace domain]
 docker-compose up -d
 docker-compose restart caddy
 ```
-- done
 
