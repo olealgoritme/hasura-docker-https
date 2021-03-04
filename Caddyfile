@@ -1,4 +1,4 @@
-# replace algoritme.io with your domain name to get automatic https via LetsEncrypt
+# replace domain.com with your domain name to get automatic https via LetsEncrypt
 domain.com {
   reverse_proxy graphql-engine:8080
 }
