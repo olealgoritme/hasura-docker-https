@@ -6,4 +6,4 @@ sudo apt-key fingerprint 0EBFCD88
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt update
 sudo apt install docker-ce docker-compose -y
-sudo usermod -aG docker `whoami`
+sudo usermod -aG docker $(whoami)
